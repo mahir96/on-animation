@@ -22,12 +22,16 @@ section {
 h1 {
   font-size: 5rem;
   line-height: 2;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 2rem;
   line-height: 1;
   padding: 2rem 0;
+  font-family: "Recursive", sans-serif;
+  font-weight: 300;
 }
 
 .btn:link,
@@ -52,7 +56,9 @@ h2 {
   height: 300px;
   width: 70vw;
   margin: 50px auto;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +70,9 @@ h2 {
   height: 300px;
   width: 70vw;
   margin: 50px auto;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +85,9 @@ h2 {
   height: 300px;
   width: 70vw;
   margin: 50px auto;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
   display: flex;
   color: #f7d726;
   justify-content: center;
@@ -91,7 +101,9 @@ h2 {
   height: 300px;
   width: 70vw;
   margin: 50px auto;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +116,9 @@ h2 {
   height: 300px;
   width: 70vw;
   margin: 50px auto;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,12 +127,12 @@ h2 {
   border-radius: 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2rem 1rem;
   }
   .card-one,
@@ -126,7 +140,10 @@ h2 {
   .card-three,
   .card-four,
   .card-five {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 90%;
+  }
+  .btn {
+    padding: 0.6rem 1.5rem;
   }
 }
