@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  text-align: center;
+  background: linear-gradient(rgb(253, 94, 147), rgb(255, 94, 148));
+  min-height: 600px;
+  color: #ffe9c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1;
+  padding: 2rem 0;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+.btn {
+  background-color: #b9f6ca;
+  color: #000;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.btn :hover {
+  opacity: 0.8;
+}
+
+.card-one {
+  height: 300px;
+  width: 70vw;
+  margin: 50px auto;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffe9c5;
+  border-radius: 5px;
+}
+.card-two {
+  height: 300px;
+  width: 70vw;
+  margin: 50px auto;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #b9f6ca;
+  border-radius: 5px;
+}
+
+.card-three {
+  height: 300px;
+  width: 70vw;
+  margin: 50px auto;
+  font-size: 4rem;
+  display: flex;
+  color: #f7d726;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #000;
+  border-radius: 5px;
+}
+
+.card-four {
+  height: 300px;
+  width: 70vw;
+  margin: 50px auto;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #80d8ff;
+  border-radius: 5px;
+}
+
+.card-five {
+  height: 300px;
+  width: 70vw;
+  margin: 50px auto;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #a1887f;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+  }
+  .card-one,
+  .card-two,
+  .card-three,
+  .card-four,
+  .card-five {
+    font-size: 3rem;
+    width: 90%;
+  }
+}
